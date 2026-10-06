@@ -1,7 +1,6 @@
 // Configurações do Supabase
-// Oriente os alunos a preencherem com os dados do próprio projeto no Supabase
-const SUPABASE_URL = "SUA_SUPABASE_URL_AQUI";
-const SUPABASE_ANON_KEY = "SUA_SUPABASE_ANON_KEY_AQUI";
+const SUPABASE_URL = "https://lmxzwwplykcypkzqnjca.supabase.co";
+const SUPABASE_ANON_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImxteHp3d3BseWtjeXBrenFuamNhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTA4NzU5NTEsImV4cCI6MjEwNjQ1MTk1MX0.SBCaSwY7CngnvkYAIwiupabZyxrWFjaOygoorpdCjuI";
 
 // Inicializa o cliente Supabase
-const _supabase = supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
+const supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
